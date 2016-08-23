@@ -1,0 +1,1 @@
+<textarea cols="30" rows="10" id="configuration-editor"></textarea>

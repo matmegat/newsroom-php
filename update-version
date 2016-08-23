@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# cd to base
+cd $(dirname ${0});
+
+# update the version string based on commit
+echo -n "$(git log --format=%h -n 1)" > version;
+
+# test for uglify support
+uglifyjs -V &> /dev/null || exit 1;
+uglifycss &> /dev/null || exit 1;
+
+# minify javascript and gzip
+for file in assets/js/*.js; do 
+	uglifyjs "${file}" --mangle --compress | gzip --no-name > "${file}.gz";
+	touch -r "${file}" "${file}.gz"
+done
+
+# minify css and gzip
+for file in assets/css/*.css; do
+	uglifycss "${file}" | gzip --no-name > "${file}.gz";
+	touch -r "${file}" "${file}.gz"
+done

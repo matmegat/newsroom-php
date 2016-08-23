@@ -1,0 +1,317 @@
+.main-menu-bar .row-fluid {
+	background: #1E3853;
+}
+
+.main-menu > ul > li > a {
+	color: #FFFFFF;
+}
+
+.main-menu > ul > li > a > span {
+	background-position: 0 0;
+}
+
+.main-menu .menu-icons-dashboard span {
+	background-position: -0px 0 !important;
+}
+
+.main-menu .menu-icons-ipublish span {
+	background-position: -100px 0 !important;
+}
+
+.main-menu .menu-icons-icontacts span {
+	background-position: -200px 0 !important;
+}
+
+.main-menu .menu-icons-ianalyze span {
+	background-position: -300px 0 !important;
+}
+
+.main-menu .menu-icons-inewsroom span {
+	background-position: -400px 0 !important;
+}
+
+.admin-approve, .admin-approve:hover {
+	color: #337D0F;
+}
+
+.admin-reject, .admin-reject:hover {
+	color: #7D0F0F;
+}
+
+.search-form-panel input#search-box {
+	border: 1px solid #fff;
+	height: 30px;
+	margin-bottom: 0;
+	min-height: 30px;
+	padding-left: 10px;
+}
+
+.search-form-panel button {
+	background-image: url("../im/search-compact.png");
+	right: 19px;
+	top: 19px;
+}
+
+.search-form-panel form {
+	padding: 11px 11px 0 0;
+}
+
+.list-filters {
+	overflow: hidden;
+	padding: 0px 30px;
+}
+
+.list-filters .list-filter {
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;
+	width: auto;
+}
+
+.list-filters .list-filter div, 
+.list-filters .list-filter-header {
+	background: #f5f5f5;
+	border: 1px solid #999;
+	border-radius: 3px;
+	float: left;
+	height: 18px;
+	line-height: normal;
+	padding: 3px 8px;
+	width: auto;
+}
+
+.list-filters .list-filter div.name {
+	background: #DDDDDD;
+	border-radius: 3px 0px 0px 3px;
+	color: #333;
+	font-variant: small-caps;
+	padding-top: 2px;
+	padding-bottom: 4px;
+}
+
+.list-filters .list-filter div.value {
+	border-radius: 0px 3px 3px 0px;
+	color: #999;
+	margin-left: -1px;
+}
+
+.list-filters .list-filter a.remove {
+	background: url("../im/close.png");
+	float: right;
+	height: 16px;
+	margin: 1px -4px 0px 4px;
+	opacity: 0.5;
+	width: 16px;
+}
+
+.list-filters .list-filter-header {
+	background: #A9CFE2 url("../im/filter.png") 5px 3px no-repeat;
+	border: 1px solid #417994;
+	color: #417994;
+	font-variant: small-caps;
+	margin-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-left: 24px;
+}
+
+.add-filter-icon {
+	background: url("../im/filter.png") -3px 0px no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	width: 9px;
+	vertical-align: middle;
+}
+
+.grid h3 .add-filter-icon {
+	height: 18px;
+}
+
+.wrapper {
+	margin-bottom: 40px;
+}
+
+.canned-list .checkbox-container-box label {
+	color: #555;
+	font-weight: bold;
+}
+
+.canned-list .checkbox-container-box .muted {
+	color: #888;
+}
+
+.configuration-setting {
+	background: #f5f5f5;
+	padding: 20px;
+	margin: 0px 0px 20px 0px;
+}
+
+.configuration-setting .description {
+	margin: 5px 0px 10px 0px;
+}
+
+.configuration-setting input,
+.configuration-setting label, 
+.configuration-setting textarea {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+strong.placeholder {
+	color: #999;
+	display: block;
+	font-size: 10px;
+	letter-spacing: 0.5px;
+	line-height: 12px;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+	transition: opacity 0.5s, top 0.5s;
+}
+
+.has-placeholder:focus + strong.placeholder {
+	color: #1357A8;
+	opacity: 1;
+}
+
+.has-placeholder:not(:valid):not(:disabled) + strong.placeholder {
+	color: #7D0F0F;
+}
+
+input[type=text].has-placeholder,
+input[type=url].has-placeholder,
+input[type=password].has-placeholder,
+input[type=email].has-placeholder,
+input[type=datetime].has-placeholder,
+input[type=datetime-local].has-placeholder,
+input[type=date].has-placeholder,
+input[type=week].has-placeholder,
+input[type=month].has-placeholder,
+input[type=number].has-placeholder,
+input[type=search].has-placeholder,
+input[type=tel].has-placeholder,
+input[type=color].has-placeholder,
+textarea.has-placeholder {
+	box-shadow: none;
+}	
+
+.has-placeholder {
+	margin-top: 15px;
+}
+
+.row-fluid textarea.user-notes {
+	height: 200px;
+}
+
+.credit-data.grid th {
+	font-size: 14px;
+}
+
+.credit-data.grid th,
+.credit-data.grid td {
+	padding: 6px 8px;
+}
+
+.credit-data .status-held {
+	color: #5CA5B1;
+}
+
+.credit-data .status-package {
+	color: #52AD74;
+}
+
+.user-details.grid th,
+.user-details.grid td {
+	font-size: 14px;
+	padding: 5px 5px;	
+	text-align: left;
+}
+
+.user-details.grid td {
+	text-align: right;
+}
+
+.user-details.grid tr:last-child {
+	border-bottom: none;
+}
+
+.user-details.grid tr {
+	border-bottom: 1px dotted #ccc;
+}
+
+.password-text {
+	border: none;
+	color: #2377A9;
+	font-size: 32px;
+	text-align: center;
+	width: 100%;
+}
+
+.give-credits-add-on input.in-text {
+	width: 80%;
+}
+
+.give-credits-add-on .add-on {
+	width: 20%;
+}
+
+.remote-addr-block a.btn {
+	padding: 4px 7px;
+}
+
+.remote-addr-block input {
+	height: 20px;
+}
+
+.remote-addr-block {
+	margin-bottom: 0;
+}
+
+.remote-addr-blocked input {
+	color: #E10000 !important;
+	width: 142px;
+}
+
+.remote-addr-blocked .add-on {
+	width: 80px;
+}
+
+.fin-services-grid .fin-service-blank {
+	margin-right: 20px;
+}
+
+.fin-services-grid .result {
+	background: #FFF2F3;
+}
+
+.fin-services-grid .result.has-im,
+.fin-services-grid .result.loader {
+	background: transparent;
+}
+
+.fin-services-grid .result.loader .a-upload {
+	background: url("../im/loader-line.gif") center center no-repeat;
+	display: inline-block;
+	overflow: hidden;
+	text-indent: 200%;
+}
+
+.configuration-setting .source-ta {
+	background: url("../im/fugue-icons/external.png") 98% center no-repeat #fff;
+	color: #eee;
+	padding-right: 48px;
+	cursor: pointer;
+	height: 20px;
+	resize: none;
+}
+
+#configuration-editor {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Consolas, monospace;
+	height: 480px;
+	resize: none;
+	width: 800px;
+}

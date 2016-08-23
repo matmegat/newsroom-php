@@ -1,0 +1,704 @@
+/* Aside */
+.aside-block {
+	border: 0;
+	margin-bottom: 0;
+	padding: 5px 20px 0;
+}
+
+.aside-left .aside-block {
+	padding-right: 0;
+}
+
+.aside-right .aside-block {
+	padding-left: 0;
+}
+
+.aside-block h3 {
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.aside-content {
+	padding: 0;
+}
+
+.aside-content-border {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 20px 18px;
+}
+
+/* Aside Links */
+.aside-links li {
+	border-bottom: 1px dotted #ccc;
+	padding: 10px 0;
+}
+
+.aside-links li:first-child {
+	border-top: 1px solid #ccc;
+}
+
+/* Aside Press Release Views */
+.aside-pr-views .aside-content-border {
+	padding: 0;
+	overflow: hidden;
+}
+
+.aside-pr-views .aside-pr-link-stats {
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	padding: 5px 0;
+	background: #f1f1f1;
+}
+
+.aside-pr-list {
+	padding: 20px 18px;
+}
+
+.aside-pr-list li:first-child {
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 20px;
+}
+
+.aside-pr-list li {
+	text-align: center;
+	padding: 20px 0 0;
+}
+
+.aside-pr-list li span {
+	display: block;
+}
+
+.aside-pr-list .aside-pr-content-value {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.aside-pr-list a:focus,
+.aside-pr-list a:hover {
+	text-decoration: none;
+}
+
+.aside-pr-list .aside-pr-content-label {
+	color: #666;
+	text-transform: uppercase;
+	padding: 5px 0 0;
+}
+
+.aside-latest-news div {
+	color: #666;
+	font-size: 13px;
+}
+
+.aside-tel-block p {
+	padding: 0;
+}
+
+.aside-tel {
+	color: #666;
+	font-size: 24px;
+	font-weight: 600;
+	display: block;
+	padding: 0 0 10px;
+}
+
+.progress-stages h3 {
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: none;
+}
+
+/* Aside Social */
+.aside-social {
+	padding-bottom: 40px;
+}
+
+.aside-social li {
+	float: left;
+	padding-right: 5px;
+}
+
+.aside-social li a {
+	font-size: 24px;
+}
+
+.aside-social li a:focus,
+.aside-social li a:hover {
+	text-decoration: none;
+}
+
+/* Main Content */
+.main .content {
+	padding: 15px 0 0;
+}
+
+.main .content h2 {
+	color: #666;
+	font-size: 24px;
+	font-weight: 300;
+	border-bottom: 1px solid #ccc;
+}
+
+.main .content h2 strong {
+	color: #000;
+}
+
+.main .content h3 {
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px 0 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.sub-header-menu  {
+	float: right;
+	padding: 10px 0 0;
+}
+
+.sub-header-menu li {
+	float: left;
+	border-left: 1px solid #c1c1c1;
+	padding: 0 10px;
+}
+
+.sub-header-menu li:first-child {
+	border: 0;
+}
+
+.sub-header-menu li a {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.main .page-header {
+	background: #f5f5f5;
+}
+
+/* Membership Level Agency */
+.mla-list li {
+	display: block;
+	padding: 10px 0;
+	border-bottom: 1px dotted #ccc;
+}
+
+.mla-label {
+	color: #666;
+	font-size: 16px;
+}
+
+.mla-list a {
+	float: right;
+}
+
+.mla-list .mla-value {
+	color: #666;
+	font-size: 22px;
+	font-weight: 600;
+	float: right;
+	margin-right: 4px;
+}
+
+/* Companies Managed */
+.cm-item {
+	margin-bottom: 20px;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.cm-item .cm-item-content {
+	display: block;
+	margin-left: 95px;
+	padding: 15px 0 0;
+	min-height: 65px;
+}
+
+.cm-item .cm-item-content a {
+	display: block;
+}
+
+.cm-item .cm-item-title {
+	font-weight: 600;
+}
+
+.cm-item .cm-item-new-link {
+	font-size: 24px;
+	line-height: 80px;
+	border: 1px dashed #ccc;
+	display: block;
+	height: 80px;
+	width: 80px;
+	float: left;
+	text-align: center;
+}
+
+.cm-item .cm-item-new-link:focus, 
+.cm-item .cm-item-new-link:hover {
+	text-decoration: none;
+}
+
+/* Agency Overview */
+.ao-content {
+	padding: 0 0 20px;
+}
+
+.main .content .ao-header h3 {
+	border-bottom: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.ao-header {
+	padding: 15px 0 0;
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+/* Tabs Content */
+.rm-tabs-block .tab-pane {
+	padding: 0;
+	margin: 0;
+}
+
+.rm-tabs-block .tab-content li {
+	font-size: 13px;
+	padding: 10px 10px;
+	border-top: 1px dotted #ccc;
+}
+
+.rm-tabs-block .tab-content li:first-child {
+	border-top: 0;
+}
+
+.rm-tabs-block {
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.tabs-header {
+	background: #eee;
+}
+
+.tabs-header a {
+	display: inline-block;
+	padding: 5px 0px 0px 0px;
+}
+
+.tabs-header span {
+	display: inline-block;
+	padding: 8px 12px 8px 12px;
+}
+
+.tabs-header li {
+	padding-right: 0;
+}
+
+.tabs-header li a {
+	color: #1357A8;
+}
+
+.tabs-header li.active span {
+	background: #fff;
+	border-radius: 4px 4px 0px 0px;
+}
+
+.rm-list li:nth-child(even) {
+	background: #fff;
+}
+
+/* Datagrid */
+.grid {
+	margin: 0;
+}
+
+.grid-content {
+	padding: 0 20px;
+}
+
+.grid .dropdown-menu > li {
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+}
+
+.grid .dropdown-menu > li > a {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+.grid thead th {
+	font-size: 14px;
+	white-space: nowrap;
+	padding: 0 10px 15px 0;
+}
+
+.grid th, 
+.grid td {
+	vertical-align: middle;
+}
+
+.grid td {
+	padding: 15px 0;
+}
+
+.grid td .td-list {
+	display: block;
+	width: 100%;
+}
+
+.grid .td-list-last {
+	padding-right: 20px;
+}
+
+.grid td .td-list li {
+	border: 0;
+	border-top: 1px solid #e0e0e0;
+	display: block;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+}
+
+.grid td .td-list li:first-child {
+	border-top: 0;
+}
+
+.grid td .td-list.td-list-center li {
+	text-align: center;
+}
+
+.grid td .td-list li a {
+	padding: 0;
+	display: block;
+	width: 100%;
+	padding: 6px 0;
+}
+
+.grid td .td-list li span {
+	padding: 6px 0;
+	display: block;
+	font-weight: 600;
+}
+
+.grid tbody tr {
+	border-bottom: 1px dotted #ccc;
+}
+
+.td-big-link {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.grid img {
+	margin-bottom: 0;
+}
+
+.grid thead {
+	padding-left: 20px;
+}
+
+.grid tfoot {
+	border-top: 1px solid #ccc;
+}
+
+.grid tfoot .cm-item-content {
+	text-align: left;
+}
+
+.grid tfoot .cm-item .cm-item-content {
+	margin-left: 100px;
+}
+
+.grid .aside-progress-block {
+	width: 115px;
+	height: 14px;
+	margin: 3px 0;
+}
+
+.grid .aside-progress-label {
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.grid tbody .sub-table-title {
+	width: 100%;
+}
+
+.grid tbody .sub-table-title tr td {
+	padding: 0;
+}
+
+.grid tbody .sub-table-title tr td:first-child {
+	width: 100px;
+}
+
+.grid tbody .sub-table-title tr {
+	border: 0;
+	padding: 0;
+}
+
+.btn-group li {
+	border-left: 0; 
+}
+
+.caret {
+	border-top: 4px solid #999;
+}
+
+.overview-combined-list .image-container img {
+	height: 76px;
+	margin: 0;
+	width: 76px;
+}
+
+.overview-combined-list .image-container {
+	cursor: pointer;
+	width: 78px;
+}
+
+.grid tbody td.vtm {
+	width: 0;
+}
+
+.grid tbody .sub-table-title tr td {
+	padding-right: 25px;
+}
+
+.grid tbody .sub-table-title tr td:first-child {
+	padding-left: 0px;
+	padding-right: 10px;
+	width: 0;
+}
+
+.grid tbody .sub-table-title div.company-name {
+	width: 125px;
+}
+
+.grid tbody td.content-list {
+	width: 0;
+}
+
+.grid td.content-list .td-list li {
+	width: 420px;
+}
+
+.grid td {
+	padding: 10px 0;
+}
+
+.grid td .td-list li {
+	border-top: 1px solid #ddd;
+	display: block;
+	float: none;
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	padding: 5px 0;
+	padding-right: 20px;	
+	white-space: nowrap;
+	width: auto;
+}
+
+.grid td .td-list li span {
+	padding: 0;
+}
+
+.grid td .td-list.td-list-center li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.grid td .td-list li:first-child {
+	border-top: none;
+}
+
+.grid td .td-list li a {
+	border: none;		
+	padding: 0;	
+	width: auto;
+}
+
+.grid td.content-list .td-list li a {
+	border-right: 1px solid #ccc;		
+	float: left;
+	margin-right: 6px;
+	padding-right: 6px;
+}
+
+.grid td.content-list .td-list li a:last-child {
+	color: #333;
+	border-right: none;	
+	margin-right: 0;
+	max-width: 340px;
+	overflow: hidden;
+	padding-right: 0;
+}
+
+.grid thead th { 
+	padding: 0 0 5px 0;
+}
+
+.grid .td-list-last {
+	padding-right: 0;
+}
+
+.sub-table-title .btn-group {
+	font-size: 14px;
+	vertical-align: baseline;
+}
+
+.sub-table-title a.submit {
+	border-right: 1px solid #ccc;
+	margin-right: 6px;
+	padding-right: 6px;
+}
+
+.sub-table-title .btn-group.open .dropdown-toggle {
+	box-shadow: none;
+}
+
+.sub-table-title .btn-group .dropdown-toggle {
+	border-radius: 0;
+}
+
+.sub-table-title .btn-group .caret {
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+.td-list-center {
+	text-align: center;
+}
+
+.overview-combined-list .grid td .td-list li span.status img {
+	display: inline;
+	float: none;
+	margin: 0;
+	vertical-align: bottom;
+}
+
+.overview-combined-list .grid td .td-list li span.status {
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.grid .dropdown-menu > li > a {
+	padding: 2px 10px;
+}
+
+.rm-title span.status {
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.rm-list li:hover {
+	background: #fff;
+}
+
+.aside-content-border + .aside-content-border {
+	margin-top: 10px;
+}
+
+.home-companies .cm-item img.blank {
+	height: 76px;
+	width: 76px;
+}
+
+.home-companies .cm-item .image-container {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	float: left;
+	width: 78px;
+}
+
+.home-companies .cm-item .image-container img {
+	height: 76px;
+	width: 76px;
+}
+
+.home-companies .cm-item {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	width: 49%;
+}
+
+.home-companies .cm-item:nth-child(2n) {	
+	margin-left: 2%;
+}
+
+.home-companies .cm-item-new-link {
+	border-radius: 4px;
+}
+
+
+.home-companies header.ao-header {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.home-companies .cm-item-content {
+	display: flex;
+	margin-left: 90px;
+	min-height: 80px;
+	padding-top: 0;	
+}
+
+.home-companies .cm-item {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.home-companies .cm-item-middle {
+	display: block;
+	margin: auto 0;
+}
+
+.home-companies .cm-item-title {
+	margin-bottom: 2px;
+}
+
+.home-companies .cm-item-middle > * {
+	line-height: normal;	
+}
+
+.home-chart-panel {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.home-companies .cm-item {
+	margin-bottom: 9px;
+}
+
+.ao-header {
+	padding-top: 10px;
+}
+
+html.has-platinum-access .agency-overview {
+	margin-top: 0;
+}
+
+.agency-overview {
+	margin-top: 10px;
+}
+
+.overview-contact .grid td.content-list .td-list li a:last-child {
+	max-width: 283px;
+}
+
+.overview-contact .grid td.content-list .td-list li {
+	width: 320px;
+}

@@ -1,0 +1,49 @@
+body { 
+	max-width: 700px;
+	margin: 20px auto 40px auto;
+}
+
+.adr-org { 
+	font-weight: bold;
+}
+
+.raw-company-logo {
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+
+h2 .raw-company-logo {
+	float: left;
+	margin: 7px 15px 15px 0px;
+}
+
+.view-original-source {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.al-adr .adr-tel a {
+	color: #8092A6;
+}
+
+.rb-categories-block {
+	padding-bottom: 20px;
+}
+
+.aside-content-block .aside-pc-name {
+	font-weight: normal;
+	color: #666;
+}
+
+.raw-email-icon {
+	font-size: 11px;
+	vertical-align: top;
+}
+
+.resources-block h3 {
+	border-bottom: 1px solid #CCCCCC;
+}
+
+hr {
+	border-top-color: #CCCCCC;
+}
